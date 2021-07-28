@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: #2f6690;
+    /* background-color: #3A7CA5; */
+    color: white;
+    padding: 2em;
+    margin: 0;
+}
+
+#bio {
+    /* background-color: tomato; */
+    /* box-sizing: border-box; */
+    /* margin: 4em; */
+    margin-top: 6em;
+    padding: 2em;
+    line-height: 1.5em;
+    max-width: 30em;
+    text-align: center;
+    /* justify-self: right; */
+    float: right;
+}
+
+#pic {
+    width: 20em;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+    border-radius: 25%;
+    border: 1px solid black;
+}
+
+/* hr {
+    border-top: 3px solid black;
+    clear: both;
+} */
+
+#sec2 {
+    background-color: #829399;
+    clear: both;
+    margin-top: 20em;
+}
+
+.flex-container {
+    display: flex;
+
+}
+
+.flex-child {
+    flex: 1;
+    /* border: 2px solid black; */
+}
+
+.flex-child:first-child {
+    margin-right: 20px;
+}
+
+#flex1 {
+    text-align: center;
+}
+#flex2 {
+    text-align: center;
+}
+
+#skillFlex {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.logoImg {
+    width: 5em;
+    margin: 1.7em;
+}
+
+#contactMe {
+    text-align: center;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+
+#contactLinks {
+    text-align: center;
+    margin-bottom: 4em;
+    display: flex;
+    justify-content: center;
+}
+
+.contactLogo {
+    width: 5em;
+    margin: 5em;
+}
