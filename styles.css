@@ -43,6 +43,7 @@ header {
     background-color: #829399;
     clear: both;
     margin-top: 20em;
+    height: 40em;
 }
 
 .flex-container {
@@ -72,6 +73,7 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 
 }
 .logoImg {
