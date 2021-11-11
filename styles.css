@@ -78,6 +78,11 @@ header {
     flex-wrap: wrap;
 
 }
+
+#nodeLabel {
+    padding-top: 2rem;
+}
+
 .logoImg {
     width: 5em;
     margin: 1.7em;
